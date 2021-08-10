@@ -1,0 +1,80 @@
+.center {
+  font-size: 200%;
+}
+
+.center2 {
+  font-size: 150%;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 0 15px;
+}
+
+th {
+  background-color: #4287f5;
+  color: white;
+}
+
+th,
+td {
+  width: 150px;
+  text-align: center;
+  border: 1px solid black;
+  padding: 5px;
+}
+
+table.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+
+.button1{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  padding: 20px;
+  text-align: center;
+  font-size: 16px;
+  /*margin-left:75%;*/
+  width:50%;
+  margin: 4px 2px;
+  color: white;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+footer {
+  text-align: center;
+  padding: 40px;
+  background-color: #000;
+  color: white;
+}
